@@ -155,7 +155,7 @@ const uint8_t nrf24_zigbee_channels[] = {
  */
 uint8_t pick(uint8_t array[], size_t size) {
   if (array == NULL || size == 0) {
-    return 0;  // Or handle error differently
+    return 0;
   }
 
   // Generate random index and return the element
