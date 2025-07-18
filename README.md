@@ -5,7 +5,16 @@ A janky yet effective directional jammer built from the finest garbage  AliExpre
 
 This is **illegal** in most civilized places. If the cyberpolice or any ham enthusiasts catches you, you'll be in hell.
 
-I generated a list of channels for BT, WiFi 2.4, and Zigbee, but only tested BT.
+I generated a list of channels for BT, WiFi 2.4, and Zigbee, but only tested BT. 
+
+**This project is presented for educational and experimental purposes only.**
+
+- **This is not a commercial product**
+- **No schematics, support, or documentation are provided**
+- **I am not affiliated with any manufacturer or distributor of this device**
+- **I do not endorse or promote the use of this device**
+
+**Do not use**
 
 ## Weaponizing Aliexpress
 
