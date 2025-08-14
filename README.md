@@ -42,6 +42,8 @@ If the legitimate signal arrives at the receiver with power \( P_s \) and your j
 \frac{P_s}{P_j + N} < \text{SNR}_\text{min}
 ```
 
+
+
 where \( N \) is the background noise power.
 
 ---
@@ -69,7 +71,7 @@ If your jammer is further from the receiver than the legitimate transmitter, you
 For Bluetooth/BLE — yes, mostly.  
 The range and power requirements make it impractical unless you can put your jammer within a meter or two of the target receiver, and even then results vary. You could try:
 - Bigger amplifiers
-- Directional antennas
+- Protocol attacks
 - Frequency-hopping tracking
 
 …but the improvement is marginal compared to the cost and complexity.
