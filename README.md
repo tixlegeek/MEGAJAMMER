@@ -38,17 +38,21 @@ In Bluetooth/BLE, the SNR requirement is typically around **10–15 dB** for rel
 
 If the legitimate signal arrives at the receiver with power \( P_s \) and your jammer provides \( P_j \), jamming works if:
 
-$$
+```math
 \frac{P_s}{P_j + N} < \text{SNR}_\text{min}
-$$
+```
+
 where \( N \) is the background noise power.
 
 ---
 
 Both \( P_s \) and \( P_j \) decay with distance according to the inverse-square law, or more precisely, the **Friis transmission equation**:
-$$
+
+```math
+
 P_r = P_t \cdot G_t \cdot G_r \cdot \left( \frac{\lambda}{4\pi R} \right)^2
-$$
+```
+
 Every doubling of distance reduces power by roughly **6 dB**.  
 If your jammer is further from the receiver than the legitimate transmitter, you’re already losing before you start.
 
