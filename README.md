@@ -34,9 +34,9 @@ This project sounds impressive, but in reality it’s more of a toy than a tool.
 ## How Jamming Works (and Why It Usually Doesn’t)
 
 The principle is simple: transmit a strong interfering signal on the same frequency so the receiver’s **signal-to-noise ratio (SNR)** drops below the threshold needed for decoding.  
-In Bluetooth/BLE, the SNR requirement is typically around **10–15 dB** for reliable communication.
+In Bluetooth/BLE, the SNR requirement is typically around **10-15 dB** for reliable communication.
 
-If the legitimate signal arrives at the receiver with power \( P_s \) and your jammer provides \( P_j \), jamming works if:
+If the legitimate signal arrives at the receiver with power Ps and your jammer provides Pj, jamming works if:
 
 ```math
 \frac{P_s}{P_j + N} < \text{SNR}_\text{min}
@@ -44,11 +44,11 @@ If the legitimate signal arrives at the receiver with power \( P_s \) and your j
 
 
 
-where \( N \) is the background noise power.
+where N is the background noise power.
 
 ---
 
-Both \( P_s \) and \( P_j \) decay with distance according to the inverse-square law, or more precisely, the **Friis transmission equation**:
+Both Ps and Pj decay with distance according to the inverse-square law, or more precisely, the **Friis transmission equation**:
 
 ```math
 
@@ -60,11 +60,9 @@ If your jammer is further from the receiver than the legitimate transmitter, you
 
 **In practice:**
 
-- Cheap RF amplifiers for hobby use output maybe **0.5–2 W**.
+- Cheap RF amplifiers for hobby use output maybe **0.5-2 W**.
 - A Bluetooth device transmits at up to **100 mW** (Class 1).
 - At typical indoor distances, you’d need **tens of watts** to reliably overpower a close transmitter.
-
----
 
 ## So, Is It Useless?
 
@@ -74,12 +72,10 @@ The range and power requirements make it impractical unless you can put your jam
 - Protocol attacks
 - Frequency-hopping tracking
 
-…but the improvement is marginal compared to the cost and complexity.
+...but the improvement is marginal compared to the cost and complexity.
 
 I built mine to silence my neighbor’s Bluetooth speaker.  
 After running the numbers, I realized it would be cheaper and far more effective to just throw a rock at it.
-
-
 
 ![jammer03](./README.assets/jammer03.jpg)
 
