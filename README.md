@@ -22,7 +22,7 @@ I generated a list of channels for BT, WiFi 2.4, and Zigbee, but only tested BT.
 ## Weaponizing Aliexpress
 
 1. **NRF24L01+ Modules** – Cheap 2.4GHz transmitters set to blast carrier frequency at max power while  hopping on a list of channels.
-2. **Sketchy RF Amplifiers** – Cheap and messy ~~like your mom~~
+2. **Sketchy RF Amplifiers** – Cheap and messy
 3. **Yagi Antennas** – Because i needed this to be directional, not only because it looks mean.
 
 Add more modules if you want to spit on more channels.
@@ -85,6 +85,6 @@ After running the numbers, I realized it would be cheaper and far more effective
 
 ![jammer02](./README.assets/jammer02.jpg)
 
-
+you can see some other projects of mine [here](https://tixlegeek.io/splash).
 
 **HppHckng!**
