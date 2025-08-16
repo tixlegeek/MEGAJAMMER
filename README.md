@@ -36,7 +36,7 @@ This project sounds impressive, but in reality it’s more of a toy than a tool.
 The principle is simple: transmit a strong interfering signal on the same frequency so the receiver’s **signal-to-noise ratio (SNR)** drops below the threshold needed for decoding.  
 In Bluetooth/BLE, the SNR requirement is typically around **10-15 dB** for reliable communication.
 
-If the legitimate signal arrives at the receiver with power Ps and your jammer provides Pj, jamming works if:
+If the legitimate signal arrives at the receiver with power $`` P_s ``$ and your jammer provides $`` P_j ``$, jamming works if:
 
 ```math
 \frac{P_s}{P_j + N} < \text{SNR}_\text{min}
@@ -44,11 +44,11 @@ If the legitimate signal arrives at the receiver with power Ps and your jammer p
 
 
 
-where N is the background noise power.
+where $`` N ``$ is the background noise power.
 
 ---
 
-Both Ps and Pj decay with distance according to the inverse-square law, or more precisely, the **Friis transmission equation**:
+Both $`` P_s ``$ and $`` P_j ``$ decay with distance according to the inverse-square law, or more precisely, the **Friis transmission equation**:
 
 ```math
 
